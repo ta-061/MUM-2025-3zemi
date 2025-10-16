@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "owner": "teru0422",
+    "name": "MUM",
+    "slug": "MUM",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.matsulab.mumapp",
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.matsulab.mumapp",
+      "versionCode": 10,
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store",
+      "expo-asset",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d0d124c-2589-46a7-b9fc-6dc6055fea87"
+      }
+    }
+  }
+}
